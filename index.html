@@ -4,17 +4,40 @@
 <head>
     <title>my first html</title>
 </head>
+<link rel="stylesheet" href="style.css">
 <style>
-    h1{
+    /* h1{
         color: orange;
         font-size: 11vw;
     }
+    
+    .custom-box{
+        
+        width:320px;
+        padding: 10px;
+        border:5px dashed grey;
+        margin: 0;
+    }
+
+    #thisone{
+        background-color:aquamarine;
+    }
+    .thistype{
+        background-color:red;
+    }
+    .whitetext{
+      color:white;
+    }
+    
+    h1{
+        background-color:blue;
+    } */
 </style>
 <body>
     <a href ="/students.html">students</a>
     <header style="font-size: 5em; color: salmon"> this is a header </header>
-    <img src="1200px-Carabao_mangoes_(Philippines).jpeg"
-        width="150">
+    <img class="custom-box" src="1200px-Carabao_mangoes_(Philippines).jpeg"
+       >
     
     <br>
     <a href="https://bocacode.com/candidates" target="_blank">
@@ -26,13 +49,13 @@
         let a = 1;<br>
         let b = 2;
     </blockquote>
-    <h2><i>this is so fancy</i></h2>
+    <h2 id="thisone"><i>this is so fancy</i></h2>
     <form>
         <input>
         <button>button</button>
     </form>
     <!-- this is a comment -->
-    <h1 >this is a header </header>
+    <h1 class="thistype whitetext" >this is a header </header>
         <h2> omg. it's smaller</h2>
         <p> this is a paragraph</p>
         <div>this is a div</div>
